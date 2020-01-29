@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Untitled Document</title>
+    <title>Simple Zodiac</title>
     <meta charset="UTF-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="index_files/styles.css"/>
 
 </head>
 <body>
-    <button onclick="doSomething(2.99,45,myText)">Press Me To Do Something</button>
-    <input type = "submit"
-                 id = "myText"
-                 value = "text here" />
-    <script type="application/javascript"src="functions.js"></script>
+    <div id="wrapper">
+        <form action="">
+            <label for="zods">Enter which number zodiac you are 1-12:</label>
+            <input type="number" min="1" max="12" id="zodiacinfo" name="zodiacinfo">
+        </form>
+        <button id="submit" onclick="computeZod();">Submit</button>
+    </div>
+    <div id='showme'> 
+
+    </div>
+    <script src="algorythm.js"></script>
 </body>
 </html>
