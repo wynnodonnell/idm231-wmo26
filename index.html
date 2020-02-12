@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Zodiac</title>
+    <title>The Wheel of Time</title>
     <meta charset="UTF-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-
+    <link rel="stylesheet" href="index_files/styles.css">
 </head>
 <body>
+
+    <header>
+        The Wheel of Time
+    </header>
     <div id="wrapper">
         <form action="">
-            <label for="zods">Enter which number zodiac you are 1-12:</label>
-            <input type="number" min="1" max="12" id="zodiacinfo" name="zodiacinfo">
+            <label for="zods">Please enter your birthday: </label>
+            <input type="date" id="zodDate" name="zodDate">
         </form>
         <button id="submit" onclick="computeZod();">Submit</button>
     </div>
-    <div id='showme'> 
+    <div id='showme'>
 
     </div>
-    <script src="algorythm.js"></script>
+    <div>
+        <img id="hero" class="mainpic" src="images/blank320.jpg" alt="You!">
+    </div>
+    <div class="images">
+        <ul>
+            <li class="item">
+                <button id="rand">
+                    <img class="pic" src="images/rand320.jpg" alt="Rand">
+                    <p>Rand Al'Thor</p>
+                </button>
+                
+            </li>
+            <li class="item">
+                <button id="mat">
+                    <img class="pic" src="images/mat320.jpg" alt="Mat">
+                    <p>Matrim Cauthon</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="perrin">
+                    <img class="pic" src="images/perrin320.jpg" alt="Perrin">
+                    <p>Perrin Aybarra</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="egwene">
+                    <img class="pic" src="images/egwene320.jpg" alt="Egwene">
+                    <p>Egwene Alvir</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="min">
+                    <img class="pic" src="images/min320.jpg" alt="Min">
+                    <p>Elmindreda Farshaw</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="nynaeve">
+                    <img class="pic" src="images/nynaeve320.jpg" alt="Nynaeve">
+                    <p>Nyneave Al Mira</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="elayne">
+                    <img class="pic" src="images/elayne320.jpg" alt="Elayne">
+                    <p>Elayne Trakand</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="lan">
+                    <img class="pic" src="images/lan320.jpg" alt="Lan">
+                    <p>Aulan Mandraguran</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="moiraine">
+                    <img class="pic" src="images/moiraine320.jpg" alt="Moiraine">
+                    <p>Moiraine Damodred</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="loial">
+                    <img class="pic" src="images/loial320.jpg" alt="Loial">
+                    <p>Loial</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="aviendha">
+                    <img class="pic" src="images/aviendha320.jpg" alt="Aviendha">
+                    <p>Aviendha</p>
+                </button>
+            </li>
+            <li class="item">
+                <button id="faile">
+                    <img class="pic" src="images/faile320.jpg" alt="Faile">
+                    <p>Faile Bashere</p>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="index_files/algorythm.js"></script>
 </body>
 </html>
+
+
+ 

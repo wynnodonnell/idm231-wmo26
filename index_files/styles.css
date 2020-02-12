@@ -1,0 +1,11 @@
+.pic{
+    border-radius: 50%;
+    max-width: 10rem;
+}
+.mainpic{
+    border-radius: 50%;
+    max-width: 15rem;
+}
+li{
+    list-style: none;
+}
