@@ -37,7 +37,9 @@ grid-row-gap: 3px;
   }
   @keyframes saturate {
     from {filter: saturate(100%);}
-    to {filter: saturate(500%);}
+    60%{filter: saturate(50%);}
+    61%{filter: saturate(500%);}
+    to {filter: saturate(100%);}
   }
   @keyframes lightning {
     from { filter: brightness(1); } 
@@ -50,6 +52,23 @@ grid-row-gap: 3px;
   94% { filter: brightness(50%); }
   96% { filter: brightness(1000%); } 
 	to { filter: brightness(1); }
+}
+@keyframes bluelightning {
+    from { filter: sepia(0%) hue-rotate(0deg) saturate(100%); } 
+    /*60%{ filter: brightness(75%); }
+    61%{ filter: brightness(205%); }
+  72% { filter: brightness(75%); }
+    73% { filter: brightness(500%); }*/
+    92% { filter: sepia(100%) hue-rotate(190deg) saturate(100%); }
+    93% { filter: sepia(100%) hue-rotate(190deg) saturate(1000%);}
+  94% { filter: sepia(100%) hue-rotate(190deg) saturate(100%); }
+  96% { filter: sepia(100%) hue-rotate(190deg) saturate(1000%); } 
+	to { filter: sepia(0%) hue-rotate(0deg) saturate(100%); }
+}
+@keyframes flashblue{
+    from {filter: sepia(0%) hue-rotate(0deg) saturate(100%);}
+    50%{filter: sepia(100%) hue-rotate(190deg) saturate(500%);}
+    to {filter: sepia(0%) hue-rotate(0deg) saturate(100%);}
 }
 
 #rand2:hover{
@@ -70,7 +89,7 @@ grid-row-gap: 3px;
 }
 
 #aviendha:hover{
-    animation: saturate 5s forwards; 
+    animation: saturate 3s infinite; 
 }
 
 #min2:hover{
@@ -88,6 +107,51 @@ grid-row-gap: 3px;
 #lan2:hover{
     transition: 1s;
     filter:opacity(10%);
+    animation: flash 3s 3s forwards;
+
+}
+
+#perrin3:hover{
+    transition:1s;
+    filter:drop-shadow(0 0 30px yellow) brightness(200%);
+}
+
+#egwene2:hover{
+    animation: flashblue 2s infinite;
+}
+
+#elayne2:hover{
+    animation: bluelightning 4s infinite;
+}
+
+@keyframes anger{
+    0%   {transform: rotate(-5deg);}
+    20%  {transform: rotate(5deg);}
+    40%  {transform: rotate(-5deg);}
+    60%  {transform: rotate(1deg) scaleY(1.04);}
+    80%  {transform: rotate(-2deg) scaleY(0.92);}
+    100% {transform: rotate(1deg);}
+  }
+#nynaeve2:hover{
+    transition: 5s;
+    filter:saturate(1000%) drop-shadow(0 0 50px red);
+    animation-name: anger;
+    animation-duration:3ms;
+    animation-delay:200ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#faile2:hover{
+    transition: 5s;
+    filter:contrast(1000%) drop-shadow(0 0 50px green);
+    animation-name: anger;
+    animation-duration:100ms;
+    animation-delay:200ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .div1 { grid-area: 1 / 3 / 3 / 4; }
