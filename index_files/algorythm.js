@@ -72,7 +72,7 @@ function swapInfo(whichOne){
   console.log('swap info called ' + whichOne);
   if(whichOne == 1){
     heroObj.src = './images/rand320.jpg';
-    herotextObj.innerHTML ='Rand Al Thor is';
+    herotextObj.innerHTML ='You are Rand Al Thor, a powerful male channeler, and the Dragon reborn. You are destined to fight the Dark One at Tarmon Gaidon, but first you must unite the people of the world under one banner. Can you make it to the last battle and defeat the Dark One? Or will you succumb to the insanity that comes with being a man who can channel?';
     showmeObj.innerHTML = "Rand Al'thor 12/22-1/19";
   }
   else if(whichOne == 2){
@@ -155,7 +155,7 @@ function computeZod(){
     if(AstroSign == "Rand Al'thor 12/22-1/19"){
       console.log('rand')
       heroObj.src = './images/rand320.jpg';
-      herotextObj.innerHTML ='Rand Al Thor is'
+      herotextObj.innerHTML ='You are Rand Al Thor, a powerful male channeler, and the Dragon reborn. You are destined to fight the Dark One at Tarmon Gaidon, but first you must unite the people of the world under one banner. Can you make it to the last battle and defeat the Dark One? Or will you succumb to the insanity that comes with being a man who can channel?'
     }
     if(AstroSign == "Parrin Aybarra 11/22-12/21"){
       console.log('perrin')
@@ -246,4 +246,6 @@ function dateToZodiac(whichMonth,whichDayOfMonth){
       return AstroSign;
       console.log(AstroSign);
 }
+
 //doSomething();*/
+

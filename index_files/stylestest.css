@@ -19,21 +19,37 @@
   }
 
 
-body{
-    background-color:black;
-    background-image: url(../images/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+  body {
+	background: linear-gradient(45deg,red, black, #010101, #23003d, #010101,#e6ba73);
+    background-size: 400% 400%;
+    background-color: #010101;
+    animation: gradient 20s ease infinite;
     color:white;
-    background: black url(../images/background.jpg) no-repeat fixed center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .pic{
     border-radius: 50%;
-    max-width: 7rem;
+    max-width: 6.5rem;
+    padding: 2px;
+    border: solid 2px #e6ba73;
+
 }
 .mainpic{
     border-radius: 50%;
     max-width: 15rem;
+    padding: 3px;
+    border: solid 3px #e6ba73;
 }
 .back{
     width:100%;
@@ -105,7 +121,7 @@ max-width: 100%;
     animation: lightning 4s infinite;
 }
   button{
-      background-color: black;
+      background-color: transparent;
       border:0;
       color:white;
       font: normal .65rem Roboto;
@@ -116,7 +132,7 @@ max-width: 100%;
 #loial2:hover{
 
     transition:2s ease;
-    transform:scale(2);
+    transform:scale(1.4);
 }
 #moiraine2:hover{
     animation: invert 2s ease-in-out forwards;
@@ -201,9 +217,8 @@ max-width: 100%;
 .div10 { grid-area: 4 / 7 / 6 / 8; }
 .div11 { grid-area: 5 / 6 / 7 / 7; }
 .div12 { grid-area: 6 / 5 / 7 / 6; }
-.div13 { grid-area: 3 / 4 / 5 / 5; }
+.div13 { grid-area: 2 / 4 / 6 / 5;}
 .div14 { 
-    grid-area: 5 / 4 / 6 / 5;
     text-align: center;
  }
  .div15{
