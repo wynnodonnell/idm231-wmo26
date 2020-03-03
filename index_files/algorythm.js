@@ -16,6 +16,7 @@ let loialObj = document.getElementById('loial');
 let aviendhaObj = document.getElementById('aviendha');
 let faileObj = document.getElementById('faile');
 let soundplayerObj = document.getElementById('soundplayer');
+let helpObj = document.getElementById('help');
 
 
 
@@ -67,6 +68,10 @@ aviendhaObj.addEventListener('click',function(){
 
 faileObj.addEventListener('click',function(){
   swapInfo(12);
+},false);
+
+helpObj.addEventListener('click',function(){
+  swapInfo(13);
 },false);
 
 function swapInfo(whichOne){
@@ -154,6 +159,11 @@ function swapInfo(whichOne){
     showmeObj.innerHTML = "Faile Bashere 3/21-4/19";
     soundplayerObj.src = './sounds/faile.mp3';
     soundplayerObj.play();
+  }
+  else if(whichOne == 13){
+    heroObj.src = './images/help320.png';
+    herotextObj.innerHTML ='To get started simply select one of the images arrayed on the page, or enter your birthdate in the box above and click submit. The page will display a character from the Wheel of Time book series that matches with your birthday.';
+    showmeObj.innerHTML = "Help Page";
   }
   else{
     console.log ('error in swapinfo');
