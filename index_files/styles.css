@@ -72,6 +72,7 @@ li{
 
 #herotext{
     font: normal .8rem Roboto;
+    text-align: justify;
 }
 .parent {
 display: grid;
