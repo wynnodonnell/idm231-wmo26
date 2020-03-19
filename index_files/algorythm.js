@@ -99,14 +99,14 @@ function swapInfo(whichOne){
   }
   else if(whichOne == 4){
     heroObj.src = './images/egwene320.jpg';
-    herotextObj.innerHTML ='You are Egwene. You are frequently described as wanting to learn everything, as fast as possible; you often chafe against the restrictions your teachers put on you, even those set for your own safety. Moiraine Damodred has made note of your social intuition; while you may not understand the private or secret machinations going on around you, you are often (at least) aware that they are happening.';
+    herotextObj.innerHTML ='You are Egwene Alvir, Watcher of the Seals. The Flame of Tar Valon. The Amyrlin Seat. You are frequently described as wanting to learn everything, as fast as possible; you often chafe against the restrictions your teachers put on you, even those set for your own safety. Moiraine Damodred has made note of your social intuition; while you may not understand the private or secret machinations going on around you, you are often (at least) aware that they are happening.';
     showmeObj.innerHTML = "Egwene Alvir 9/23-10/23";
     soundplayerObj.src = './sounds/egwene.mp3';
     soundplayerObj.play();
   }
   else if(whichOne == 5){
     heroObj.src = './images/min320.jpg';
-    herotextObj.innerHTML ='Elmindreda Farshaw is';
+    herotextObj.innerHTML ='You are Min Farshaw, and you can see auras of the future about the heads of people you can see. Others consider you beautiful, but you’ve always preferred wearing breeches to dresses. Your cunning and wry smile have bought you the love of Rand, the dragon reborn, but you’ve recently learned that you’re going to have to share him, with Aviendha and Elayne Trakand. Your viewings are a gift in some ways and a burden in others. You can see people’s futures, but often it involves their death, and there is no way you can change it.';
     showmeObj.innerHTML = "Elmindreda Farshaw 4/20-5/20";
     soundplayerObj.src = './sounds/min.mp3';
     soundplayerObj.play();
@@ -120,42 +120,42 @@ function swapInfo(whichOne){
   }
   else if(whichOne == 7){
     heroObj.src = './images/elayne320.jpg';
-    herotextObj.innerHTML ='Elayne Trakand is';
+    herotextObj.innerHTML ="You are Elayne Trakand, daughter heir of Andor, and an Aies Sedai of the Green Ajah. You bonded Birgitte Silverbow as your warder when it seemed she may die without the bond, and the two of you have become quite close since. It is against custom to bond a female warder, but traditions always change. You and your first sister, Aviendha, performed a ceremony, binding you together as more than just friends, but as sisters. You are a powerful channler, and you love Rand Al Thor, the Dragon Reborn, but for now your focus is on Andor, your home.";
     showmeObj.innerHTML = "Elayne Trakand 8/23-9/22";
     soundplayerObj.src = './sounds/elayne.mp3';
     soundplayerObj.play();
   }
   else if(whichOne == 8){
     heroObj.src = './images/lan320.jpg';
-    herotextObj.innerHTML ='You are Lan. Although your impassive face reveals little of your emotions, you are a highly complex character, described as "an onion" by Rand because of his many layers. You are stoic to hardship and ignore physical sufferings. Despite your hard features and cold eyes, you feel deeply and love passionately. Women are divided on your physical attractiveness, with some finding you irresistible and others, chilling.';
+    herotextObj.innerHTML ='You are Lan Mandraguran, the former warder of Moiraine Damodred, and the husband of Nyneave Al Mira. Although your impassive face reveals little of your emotions, you are a highly complex character, described as "an onion" by Rand because of his many layers. You are stoic to hardship and ignore physical sufferings. Despite your hard features and cold eyes, you feel deeply and love passionately. Women are divided on your physical attractiveness, with some finding you irresistible and others, chilling.';
     showmeObj.innerHTML = "al'Lan Mandragoran 6/22-7/22";
     soundplayerObj.src = './sounds/lan.mp3';
     soundplayerObj.play();
   }
   else if(whichOne == 9){
     heroObj.src = './images/moiraine320.jpg';
-    herotextObj.innerHTML ='Moiraine Damodred is';
+    herotextObj.innerHTML ='You are Moiraine Damodred, Aes Sedai of the Blue Ajah. As a member of the Blue Ajah, who above all else strive to find purpose, you dedicate yourself to finding and guiding the Dragon Reborn to the last battle. You are frustrated with Rand Al Thor, the Dragon Reborn, now that you have finally found him after 19 years of searching. He is stubborn and the only way to make him see that you have his best interests in mind is to do as he says, which is difficult for you as a powerful Aes Sedai.';
     showmeObj.innerHTML = "Moiraine Damodred 7/23-8/22";
     soundplayerObj.src = './sounds/moiraine.mp3';
     soundplayerObj.play();
   }
   else if(whichOne == 10){
     heroObj.src = './images/loial320.jpg';
-    herotextObj.innerHTML ='You are Loial. Hasty for an Ogier, you are said to act an hour before you think. You love books and reading, never being anywhere without a book. The fastest runner in Stedding Shangtai, you once outran a horse. As your name suggests, you are loyal to your friends. You believe firmly in life, and the preservation of it, especially trees.';
+    herotextObj.innerHTML ='You are Loial son of Arent son of Halan, an Ogier from Stedding Shangtai. Hasty for an Ogier, you are said to act an hour before you think. You love books and reading, never being anywhere without a book. The fastest runner in Stedding Shangtai, you once outran a horse. As your name suggests, you are loyal to your friends. You believe firmly in life, and the preservation of it, especially trees.';
     showmeObj.innerHTML = "Loial 2/19-3/20";
     soundplayerObj.src = './sounds/loial.mp3';
     soundplayerObj.play();
   }
   else if(whichOne == 11){
     heroObj.src = './images/aviendha320.jpg';
-    herotextObj.innerHTML ='Aviendha is';
+    herotextObj.innerHTML ="You are Aviendha, a former maiden of the spear of the Nine Valleys sept, and now a wiseone for the Car'a'carn, Rand Al Thor. You are hard and stubborn, but you are also passionate. You love Rand Al Thor, and you know that your first sister, Elayne Trakand, loves him too, and you love her fiercely. There was a time when all you wanted was to be a maiden of the spear, but the wiseones discovered you had a great ability to channel the one power, and forced you to become apprenticed to them. You have come to accept the change, as your honor, Ji'e'toh, requires.";
     showmeObj.innerHTML = "Aviendha 5/21-6/21";
     soundplayerObj.src = './sounds/aviendha.mp3';
     soundplayerObj.play();
   }
   else if(whichOne == 12){
     heroObj.src = './images/faile320.jpg';
-    herotextObj.innerHTML ='You are Faile. You are somewhat aggressive and occasionally prone to emotions of anger or jealousy. You harbor a keen intellect which you frequently use to manipulate people or circumstances to benefit your husband, Perrin. Emotionally, you are the product of Saldaean cultural values where women - be they noble ladies or common farmgirls - express a territorial nature when it comes to husbands and property. Though you have a short temper which can lead to fights with Perrin, your passion can express itself just as equally as a fierce love towards him.';
+    herotextObj.innerHTML ='You are Faile Bashere, born Zarine ni Bashere. You are somewhat aggressive and occasionally prone to emotions of anger or jealousy. You harbor a keen intellect which you frequently use to manipulate people or circumstances to benefit your husband, Perrin. Emotionally, you are the product of Saldaean cultural values where women - be they noble ladies or common farmgirls - express a territorial nature when it comes to husbands and property. Though you have a short temper which can lead to fights with Perrin, your passion can express itself just as equally as a fierce love towards him.';
     showmeObj.innerHTML = "Faile Bashere 3/21-4/19";
     soundplayerObj.src = './sounds/faile.mp3';
     soundplayerObj.play();

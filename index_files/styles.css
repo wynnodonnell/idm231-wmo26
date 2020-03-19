@@ -99,7 +99,9 @@ max-width: 100%;
     to {filter: saturate(100%);}
   }
   @keyframes lightning {
-    from { filter: brightness(1); } 
+    from { filter: brightness(1); }
+    20%{filter: brightness(85%);} 
+    21%{filter: brightness(185%);} 
     60%{ filter: brightness(75%); }
     61%{ filter: brightness(205%); }
   72% { filter: brightness(75%); }
