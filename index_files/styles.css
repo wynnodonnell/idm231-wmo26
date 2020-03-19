@@ -258,3 +258,6 @@ max-width: 100%;
 }
 .div16 {grid-area: 6 / 4 / 7 / 4;}
 
+button:hover{
+cursor: pointer;
+}
